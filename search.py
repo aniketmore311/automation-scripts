@@ -2,7 +2,7 @@
 import webbrowser
 import sys
 
-# a script to do internet searched from the terminal
+# a script to do internet searches from the terminal
 
 # steps
 # decide the search engine
@@ -10,7 +10,7 @@ import sys
 #   form a structured query and search in a new tab
 
 
-# dictionary containing the base query for all the search engines
+# dictionary containing the base queries of all the search engines
 baseQueries = {
     "google": "https://www.google.com/search?q=",
     "youtube": "https://www.youtube.com/results?search_query="
@@ -41,7 +41,7 @@ def makeQueries(baseQuery, joiningChar):
 def openTabs(allQueries):
     for query in allQueries:
         # print(query)
-        webbrowser.open_new_tab(query)
+        weBbrowser.open_new_tab(query)
 
 
 def main():
