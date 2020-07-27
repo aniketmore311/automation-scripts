@@ -3,6 +3,9 @@ import webbrowser
 import sys
 
 # a script to do internet searches from the terminal
+# example 
+# $ ./search google "search one" "search two"
+
 
 # steps
 # decide the search engine
