@@ -41,7 +41,7 @@ def makeQueries(baseQuery, joiningChar):
 def openTabs(allQueries):
     for query in allQueries:
         # print(query)
-        weBbrowser.open_new_tab(query)
+        webbrowser.open_new_tab(query)
 
 
 def main():
