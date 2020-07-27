@@ -1,4 +1,4 @@
 # automation-scripts
 ## python scripts for simple automation
-- [search]()
+- [search](https://github.com/aniketmore311/automation-scripts/blob/master/search.py)
   - allows internet searched from the terminal
