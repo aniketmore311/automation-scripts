@@ -5,7 +5,7 @@ import sys
 # a script to do internet searches from the terminal
 
 # example
-# $ ./search google "search one" "search two"
+# $python3 ./search.py google "search one" "search two"
 # this will open 2 tabs with google searches "search one" and "search two"
 
 # steps
